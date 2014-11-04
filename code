@@ -1,0 +1,37 @@
+#include <iostream>
+
+using namespace std;
+
+float getNames(); // Name are function getNames() is finsihed, needs to be compiled and tested.
+
+
+int main()
+{
+ 
+ float names;
+ 
+ name = getNames();
+ 
+ 
+ cout << endl << endl << "Lab 8.2 - Putting It All Together!" << endl;
+ cout << "/tBy Cody Gillaspie" << endl << endl;
+ 
+ 
+  
+  return 0;
+}
+
+  float getNames()
+  {
+    float teamA, teamB;
+    
+    cout << "What is the name of the first team?";
+    cin >> teamA;
+    
+    cout << "What is the name of the second team?";
+    cin >> teamB;
+  
+    return teamA, teamB;
+  }
+  
+  
